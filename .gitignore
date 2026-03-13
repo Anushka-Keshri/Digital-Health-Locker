@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+dist/
+build/
+
+# IDEs/Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Environments / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.secret
+api.txt
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Data / Large Files
+# We exclude the raw CSV datasets because they are huge and exceed GitHub limits.
+# The medical_index.json (6MB) is included so the app works immediately after cloning.
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Temporary files
+/tmp/
+.gemini/
+
+# Project specific exclusions
+README.md
+

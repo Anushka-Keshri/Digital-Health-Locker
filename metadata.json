@@ -1,0 +1,5 @@
+{
+  "name": "Digital Health Locker",
+  "description": "A secure, patient-centric digital health record platform enabling storage, sharing, and authenticated doctor prescriptions with FHIR-ready interoperability.",
+  "requestFramePermissions": []
+}
